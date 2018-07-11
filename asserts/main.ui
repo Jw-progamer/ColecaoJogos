@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Coleção de consoles e jogos</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuarquivo">
+    <property name="title">
+     <string>&amp;arquivo</string>
+    </property>
+    <addaction name="actionNovo_Arquivo"/>
+    <addaction name="actionAbrir_Arquivo"/>
+    <addaction name="actionBackup_Arquivo"/>
+   </widget>
+   <widget class="QMenu" name="menuplataformas">
+    <property name="title">
+     <string>p&amp;lataformas</string>
+    </property>
+    <addaction name="actionAdicionar_plataforma"/>
+    <addaction name="actionVisualizar_Plataforma"/>
+   </widget>
+   <widget class="QMenu" name="menuJogos">
+    <property name="title">
+     <string>&amp;Jogos</string>
+    </property>
+    <addaction name="actionAdicionar_Jogo"/>
+    <addaction name="actionVisualizar_jogos"/>
+    <addaction name="actionExcluir_jogos"/>
+   </widget>
+   <widget class="QMenu" name="menuajuda">
+    <property name="title">
+     <string>aj&amp;uda</string>
+    </property>
+    <addaction name="actionsobre"/>
+   </widget>
+   <addaction name="menuarquivo"/>
+   <addaction name="menuplataformas"/>
+   <addaction name="menuJogos"/>
+   <addaction name="menuajuda"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionNovo_Arquivo">
+   <property name="text">
+    <string>&amp;Novo Arquivo</string>
+   </property>
+  </action>
+  <action name="actionAbrir_Arquivo">
+   <property name="text">
+    <string>&amp;Abrir Arquivo</string>
+   </property>
+  </action>
+  <action name="actionBackup_Arquivo">
+   <property name="text">
+    <string>&amp;Backup Arquivo</string>
+   </property>
+  </action>
+  <action name="actionAdicionar_plataforma">
+   <property name="text">
+    <string>&amp;Adicionar Plataforma</string>
+   </property>
+  </action>
+  <action name="actionVisualizar_Plataforma">
+   <property name="text">
+    <string>&amp;Visualizar Plataforma</string>
+   </property>
+  </action>
+  <action name="actionAdicionar_Jogo">
+   <property name="text">
+    <string>&amp;Adicionar Jogo</string>
+   </property>
+  </action>
+  <action name="actionVisualizar_jogos">
+   <property name="text">
+    <string>&amp;Visualizar jogos</string>
+   </property>
+  </action>
+  <action name="actionExcluir_jogos">
+   <property name="text">
+    <string>&amp;Excluir jogos</string>
+   </property>
+  </action>
+  <action name="actionsobre">
+   <property name="text">
+    <string>sobre]</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
